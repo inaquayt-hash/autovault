@@ -1,0 +1,13 @@
+{
+  "key.autovault.toggle": "Toggle Auto Vault",
+  "key.autovault.switch_trigger": "Switch Ominous Trigger Item",
+  "category.autovault": "Auto Vault Key",
+  "autovault.screen.title": "Auto Vault Key",
+  "autovault.screen.enabled_on": "Mod: ON",
+  "autovault.screen.enabled_off": "Mod: OFF",
+  "autovault.screen.trigger_core": "Ominous trigger: Heavy Core",
+  "autovault.screen.trigger_apple": "Ominous trigger: Enchanted Golden Apple",
+  "autovault.screen.trident_on": "Watch for Trident: ON",
+  "autovault.screen.trident_off": "Watch for Trident: OFF",
+  "autovault.screen.hint": "Set the keybinds in Options > Controls > Auto Vault Key"
+}

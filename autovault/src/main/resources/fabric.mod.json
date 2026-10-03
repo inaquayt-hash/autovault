@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "autovault",
+  "version": "${version}",
+  "name": "Auto Vault Key",
+  "description": "Automatically inserts a Heavy Key into an Ominous Vault when a Heavy Core (or Enchanted Golden Apple) appears, and a Vault Key into a normal Vault when a Trident appears. Toggle with a keybind or from the Mods menu.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/autovault/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autovault.AutoVaultClient"
+    ],
+    "modmenu": [
+      "com.example.autovault.compat.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["client"]
+    }
+  }
+}
